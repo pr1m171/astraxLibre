@@ -8,9 +8,9 @@ define('SAAS_LOGIN_REFERRER', 'https://astrax.app');
 
 define('COMPANY_NAME'       , 'Astrax Community');
 define('COMPANY_SUFFIX'     , '');
-define('COMPANY_SITE'       , 'libretime.org');
+define('COMPANY_SITE'       , 'astrax.app');
 define('COMPANY_SITE_URL'   , 'https://astrax.app');
-define('SUPPORT_ADDRESS'    , 'https://discourse.libretime.org/');
+define('SUPPORT_ADDRESS'    , 'https://discourse.astrax.app/');
 
 define('HELP_URL'                   , 'https://astrax.app');
 define('WHOS_USING_URL'             , 'https://astrax.app');

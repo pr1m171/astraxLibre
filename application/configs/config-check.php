@@ -168,10 +168,10 @@ $result = $r1 && $r2;
                         <?php
                         } else {
                             ?>">
-                            <?php echo _("Check that the libretime-analyzer service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
+                            <?php echo _("Check that the astrax-analyzer service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
                             <?php echo _(" and ensure that it's running with ") ?>
-                            <br/><code>systemctl status libretime-analyzer</code><br/>
-                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart libretime-analyzer</code>
+                            <br/><code>systemctl status astrax-analyzer</code><br/>
+                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart astrax-analyzer</code>
                         <?php
                         }
                         ?>
@@ -188,10 +188,10 @@ $result = $r1 && $r2;
                         <?php
                         } else {
                             ?>">
-                            <?php echo _("Check that the libretime-playout service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
+                            <?php echo _("Check that the astrax-playout service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
                             <?php echo _(" and ensure that it's running with ") ?>
-                            <br/><code>systemctl status libretime-playout</code><br/>
-                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart libretime-playout</code>
+                            <br/><code>systemctl status astrax-playout</code><br/>
+                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart astrax-playout</code>
                         <?php
                         }
                         ?>
@@ -208,10 +208,10 @@ $result = $r1 && $r2;
                         <?php
                         } else {
                             ?>">
-                            <?php echo _("Check that the libretime-liquidsoap service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
+                            <?php echo _("Check that the astrax-liquidsoap service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
                             <?php echo _(" and ensure that it's running with ") ?>
-                            <br/><code>systemctl status libretime-liquidsoap</code><br/>
-                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart libretime-liquidsoap</code>
+                            <br/><code>systemctl status astrax-liquidsoap</code><br/>
+                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart astrax-liquidsoap</code>
                         <?php
                         }
                         ?>
@@ -228,10 +228,10 @@ $result = $r1 && $r2;
                         <?php
                         } else {
                             ?>">
-                            <?php echo _("Check that the libretime-celery service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
+                            <?php echo _("Check that the astrax-celery service is installed correctly in ") ?><code>/etc/systemd/system/</code>,
                             <?php echo _(" and ensure that it's running with ") ?>
-                            <br/><code>systemctl status libretime-celery</code><br/>
-                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart libretime-celery</code>
+                            <br/><code>systemctl status astrax-celery</code><br/>
+                            <?php echo _("If not, try ") ?><br/><code>sudo systemctl restart astrax-celery</code>
                         <?php
                         }
                         ?>
